@@ -1,9 +1,5 @@
 Michael Nguyen
 
-CSE130, Assignment 2
-
-mivinguy@ucsc.edu
-
 Compile the program by running make in the terminal.
 
 ------------------------------------
@@ -11,7 +7,7 @@ Compile the program by running make in the terminal.
     The makefile has a lot of warnings that come up, that I didn't have when 
     compiling on my terminal with 
     "g++ httpserver.cpp -o -pthread httpserver"
-    But please just ignore the warnings that come up, the program still compiles 
+    Ignore the warnings that come up, the program still compiles 
     and runs
     
 ------------------------------------
@@ -55,8 +51,3 @@ For GET requests:
 Ex:
 
 - curl localhost:8080 --request-target ABCDEFabcdef012345XYZxyz-t1
-
-**Final Notes:**
-
-The program will print out the hex to the log file for PUT requests, but it 
-won't be zero padded or formatted as I didn't have time to get it to work.
