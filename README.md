@@ -1,4 +1,4 @@
-A multithreaded HTTP server that resonds to multiple or single simple GET and PUT commands to read and write text files that are specifically named by 27 ASCII names. Stores files persistently in the directory that the server is in. Logging is an option where the server will store a record of each request, with header information and the file data dumped as hex. 
+A multithreaded HTTP server that responds to multiple or single simple GET and PUT commands to read and write text files that are specifically named by 27 ASCII names. Stores files persistently in the directory that the server is in. Logging is an option where the server will store a record of each request, with header information and the file data dumped as hex. 
 
 Compile the program by running make in the terminal.
 
